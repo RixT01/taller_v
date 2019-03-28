@@ -12,9 +12,9 @@ module Transport
   end
 
   # http://app/car/result/{teamNumber}/{total}
-  def self.set_result(team:, model_type:, total: , cars:)
+  def self.set_result(team:, total: , cars:)
     conn.post do | req |
-      req.url "/car/result/#{team}/#{model_type}/#{total}"
+      req.url "/car/result/#{team}/#{total}"
       req.headers['Content-Type'] = 'application/json'
       req.body = build_body(cars: cars)
     end
