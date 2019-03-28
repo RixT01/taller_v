@@ -14,9 +14,12 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     concurrent-ruby (1.1.5)
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     minitest (5.11.3)
+    multipart-post (2.0.0)
     pg (1.1.4)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
@@ -27,6 +30,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  faraday
   pg
 
 BUNDLED WITH

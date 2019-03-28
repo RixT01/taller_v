@@ -2,7 +2,8 @@ require 'faraday'
 require 'json'
 
 module Transport
-  #FIXME fix this
+
+  # FIXME fix this
   URL = "http://app"
   def self.conn
     @conn ||= Faraday.new(url: URL) do |faraday|
@@ -12,16 +13,16 @@ module Transport
     end
   end
 
-  #http://app/car/result/{teamNumber}/{total}
-  def set_result(team:, model_type:, total: , cars:)
-    conn.post do |req|
+  # http://app/car/result/{teamNumber}/{total}
+  def self.set_result(team:, model_type:, total: , cars:)
+    conn.post do | req |
       req.url "/car/result/#{team}/#{model_type}/#{total}"
       req.headers['Content-Type'] = 'application/json'
-      req.body = '{ "name": "Unagi" }'
+      req.body = build_body(cars: cars)
     end
   end
 
   def self.build_body(cars:)
-    JSON.generate(cars)
+    cars.map(&:to_json)
   end
 end

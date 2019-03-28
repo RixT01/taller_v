@@ -15,13 +15,13 @@ class Car
 
   def to_json
     JSON.generate({
-     "brand": @brand,
-     "name": @name,
-     "tires": @tires,
-     "motor": @motor,
-     "transmission": @transmission,
-     "doors": @doors,
-     "style": @style
+      "brand":        @brand,
+      "name":         @name,
+      "tires":        @tires,
+      "motor":        @motor,
+      "transmission": @transmission,
+      "doors":        @doors,
+      "style":        @style
     })
   end
 end
