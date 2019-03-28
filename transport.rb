@@ -1,13 +1,11 @@
 require 'faraday'
-require 'json'
+require 'active_support/all'
 
 module Transport
-
   # FIXME fix this
   URL = "http://app"
   def self.conn
     @conn ||= Faraday.new(url: URL) do |faraday|
-      faraday.request  :url_encoded             # form-encode POST params
       faraday.response :logger                  # log requests and responses to $stdout
       faraday.adapter  Faraday.default_adapter  # make requests with Net::HTTP
     end
@@ -23,6 +21,6 @@ module Transport
   end
 
   def self.build_body(cars:)
-    cars.map(&:to_json)
+      cars.to_json
   end
 end
