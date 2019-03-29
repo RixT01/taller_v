@@ -1,5 +1,4 @@
 source "https://rubygems.org"
 
-gem "activerecord"
-gem "pg"
-gem 'faraday'
+gem "car_factory", git: 'https://github.com/HPMarin742/car_factory.git'
+#gem "car_factory", path: "/Users/dan/workspaces/projects/taller/car_factory"
