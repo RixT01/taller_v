@@ -49,15 +49,20 @@
 
 ### Examples Ruby
 1. For creating a Car object in Ruby is 
+
 `Car.new(brand:"Mercedes",  name: "Citan",  tires: "Continental",  motor: "Turbo 2.5",  transmission: "Manual",  doors: 2,  style: "Sedan")`
 2. To assign it in a variable is 
+
 `car = Car.new(brand:"Mercedes",  name: "Citan",  tires: "Continental",  motor: "Turbo 2.5",  transmission: "Manual",  doors: 2,  style: "Sedan")`
 3. To create an array of any kind you need to type
+
 `carArray = []`
 4. And to add a car inside of the array is
+
 `car = Car.new(brand:"Mercedes",  name: "Citan",  tires: "Continental",  motor: "Turbo 2.5",  transmission: "Manual",  doors: 2,  style: "Sedan")
 carArray << car`
 5. When you have ready the list of cars and send it to validate it is
+
 `Transport.set_result(team: your_team_number, total: total_cars, cars: carArray)`
 
 If you have further doubts, you can go to https://www.ruby-lang.org/en/documentation/
