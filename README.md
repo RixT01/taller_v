@@ -27,6 +27,12 @@
   b. click button: Clone or Download
   
   *NOTE*: you can also clone the repo using `git clone https://github.com/HPMarin742/taller_v.git`
+  
+### Create Trello
+1. Go to Trello https://trello.com/
+2. Create account
+3. Create board using https://trello.com/{username}/boards#
+4. Add jmelo@nearsoft.com, dan@nearsoft.com, cmarin@nearsoft.com, jnunez@nearsoft.com
 
 ### Install Ruby
 1. Go to https://rubyinstaller.org/
@@ -36,12 +42,6 @@
   *NOTE:* Please deselect MSYS2 is unchecked
 5. At the end of installation please deselect checkbox `Run ridk install`
 6. Open CDM or terminal, run `$irb` _AND_ `$ ruby -v`  to validate that it's installed correctly
-
-### Create Trello
-1. Go to Trello https://trello.com/
-2. Create account
-3. Create board using https://trello.com/{username}/boards#
-4. Add jmelo@nearsoft.com, dan@nearsoft.com, cmarin@nearsoft.com, jnunez@nearsoft.com
 
 ### Install project
 1. Go to your terminal
