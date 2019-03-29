@@ -120,7 +120,8 @@ If you have further doubts, you can go to https://www.ruby-lang.org/en/documenta
 - Sedan
 - Hashback
 
-##### Example Models
+---
+
 ##### Ford Model
 Name: Fusion
 Tires Continental
