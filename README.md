@@ -41,7 +41,7 @@
 1. Go to Trello https://trello.com/
 2. Create account
 3. Create board using https://trello.com/{username}/boards#
-4. Add jmelo@nearsoft.com, dvarelap@nearsoft.com, cmarin@nearsoft.com, jnunez@nearsoft.com
+4. Add jmelo@nearsoft.com, dan@nearsoft.com, cmarin@nearsoft.com, jnunez@nearsoft.com
 
 ### Install project
 1. Go to your terminal
