@@ -70,3 +70,165 @@ carArray << car`
 `Transport.set_result(team: your_team_number, total: total_cars, cars: carArray)`
 
 If you have further doubts, you can go to https://www.ruby-lang.org/en/documentation/
+
+---
+---
+---
+
+### Teams
+- Ford Team - Team #1
+- Mazda Team - Team #2
+- Audi Team - Team #3
+- Chevrolet Team - Team #4
+- Volkswagen Team - Team #5
+- Seat Team - Team #6
+- Nissan Team - Team #7
+- Toyota Team - Team #8
+- BMW Team - Team #9
+- Honda Team - Team #10
+- Mercedes Team - Team #11
+- Acura Team - Team #12
+- Peugeot Team - Team #13
+- Tesla Team - Team #14
+
+### Car Definition
+#### Available Parts
+- Tires
+- Motor
+- Door
+- Transmission
+- Style
+
+##### Tires
+- Continental
+- Michelin
+
+##### Motor
+- Non Turbo 2.0
+- Turbo 2.5
+
+##### Doors
+- 2 Doors
+- 3 Doors
+- 4 Doors
+
+##### Transmission
+- Manual
+- Automatic
+
+##### Style
+- Sedan
+- Hashback
+
+##### Example Models
+##### Ford Model
+Name: Fusion
+Tires Continental
+Motor: Non Turbo 2.0
+Doors: 3
+Transmission: Manual
+Style: Hashback
+ 
+##### Mazda Model
+Name: Mazda 3
+Tires Michelin
+Motor: Turbo 2.5
+Doors: 3
+Transmission: Manual
+Style: HashBack
+
+##### Audi Model
+Name: A4
+Tires: Continental
+Motor: Turbo 2.5
+Doors: 3
+Transmission: Manual
+Style: HashBack
+
+##### Chevrolet Model
+Name: Camaro
+Tires: Michelin
+Motor: Turbo 2.5
+Doors: 3
+Transmission: Manual
+Style: HashBack
+
+##### Volkswagen Model
+Name: Jetta
+Tires: Continental
+Motor: Non Turbo 2.0
+Doors: 3
+Transmission: Manual
+Style: HashBack
+
+##### Seat Model 6
+Name: Leon
+Tires: Michelin
+Motor: Turbo 2.5
+Doors: 3
+Transmission: Manual
+Style: HashBack
+
+##### Nissan Model
+Name: Maxima
+Tires: Continental
+Motor: Turbo 2.5
+Doors: 3
+Transmission: Manual
+Style: HashBack
+
+##### Toyota Model
+Name: Corolla
+Tires: Michelin
+Motor: Non Turbo 2.0
+Doors: 4
+Transmission: Automatic
+Style: Sedan
+
+##### BMW Model
+Name: 325i
+Tires: Michelin
+Motor: Turbo 2.5
+Doors: 4
+Transmission: Automatic
+Style: Sedan
+
+##### Honda Model
+Name: Civic
+Tires: Michelin
+Motor: Turbo 2.5
+Doors: 2
+Transmission: Automatic
+Style: Sedan
+
+##### Mercedes Model
+Name: SL
+Tires: Michelin
+Motor: Non Turbo 2.0
+Doors: 2
+Transmission: Automatic
+Style: Sedan
+
+##### Acura Model
+Name: TLX
+Tires: Continental
+Motor: Turbo 2.5
+Doors: 2
+Transmission: Automatic
+Style: Sedan
+
+##### Peugeot Model
+Name: 301
+Tires: Continental
+Motor: Turbo 2.5
+Doors: 2
+Transmission: Automatic
+Style: Sedan
+
+##### Tesla
+Name: Model 3
+Tires: Continental
+Motor: Turbo 2.5
+Doors: 4
+Transmission: Automatic
+Style: Sedan
