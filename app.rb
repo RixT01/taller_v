@@ -2,6 +2,7 @@ require 'car_factory'
 
 include CarFactory
 
+# Database connection
 Database.load(db_file: 'db.yml')
 
 puts Inventory.continental_tires

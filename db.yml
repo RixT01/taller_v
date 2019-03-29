@@ -1,5 +1,5 @@
 host:     '<host>'
 adapter:  'postgresql'
-database: 'team_z'
-username: ''
-password: ''
+database: '<team_z>'
+username: '<username>'
+password: '<password>'
