@@ -5,6 +5,7 @@ include CarFactory
 # Database connection
 Database.load(db_file: 'db.yml')
 
+# Loads inventory
 puts Inventory.continental_tires
 puts Inventory.michelin_tires
 puts Inventory.motors_with_turbo
