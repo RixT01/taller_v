@@ -125,6 +125,13 @@ If you have further doubts, you can go to https://www.ruby-lang.org/en/documenta
 - Hashback
 
 ---
+#### Objective
+Build the max number of cars based on your inventory. Each model MUST have:
+- Doors
+- Motor
+- Transmission
+- Style
+- Tires
 
 ##### Ford Model
 Name: Fusion
